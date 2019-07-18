@@ -1,12 +1,15 @@
-import React, { Fragment } from 'react';
-import Search from '../users/Search';
-import Users from '../users/Users';
+import React, { Fragment } from "react";
+import Search from "../layout/Search";
+import Standings from "../standingtable/Standings";
 
-const Home = () => (
-  <Fragment>
-    <Search />
-    <Users />
-  </Fragment>
-);
+const Home = () => {
+  return (
+    <Fragment>
+      <Search />
+      <br />
+      <Standings />
+    </Fragment>
+  );
+};
 
 export default Home;
