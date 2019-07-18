@@ -28,7 +28,7 @@ const Search = () => {
     <div className='text-center shadow p-3 mb-5 rounded-circle '>
       <h1
         style={{
-          color: "black",
+          color: "red",
           fontWeight: "bold",
           fontFamily: "Times New Roman"
         }}
