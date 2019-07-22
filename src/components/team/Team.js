@@ -46,7 +46,7 @@ const Team = () => {
             fontSize: "40px"
           }}
         >
-          •Founded : {founded}
+          Founded : {founded}
         </li>
         <li
           style={{
@@ -56,7 +56,7 @@ const Team = () => {
             fontSize: "40px"
           }}
         >
-          •Short Name : {tla}
+          Short Name : {tla}
         </li>
         <li
           style={{
@@ -66,7 +66,7 @@ const Team = () => {
             fontSize: "40px"
           }}
         >
-          •Club Colors : {clubColors}
+          Club Colors : {clubColors}
         </li>
         <li
           style={{
@@ -76,7 +76,7 @@ const Team = () => {
             fontSize: "40px"
           }}
         >
-          •Stadium : {venue}
+          Stadium : {venue}
         </li>
       </ul>
       <br />
