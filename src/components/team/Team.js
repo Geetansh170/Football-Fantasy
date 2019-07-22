@@ -10,7 +10,7 @@ const Team = () => {
     squad
   } = footContext;
 
-  console.log(squad[0]);
+  //console.log(squad[0]);
 
   return (
     <div>
@@ -26,7 +26,9 @@ const Team = () => {
             textShadow: "4px 4px 12px black",
             color: "red",
             fontWeight: "bolder",
-            fontSize: "100px"
+            fontSize: "5vw",
+            position: "relative",
+            top: "40px"
           }}
           className='col-8'
         >
