@@ -4,6 +4,7 @@ import Navbar from "./components/layout/Navbar";
 import About from "./components/pages/About";
 import GithubState from "./context/foot/FootState";
 import Home from "./components/pages/Home";
+import Teaminfo from "./components/pages/Teaminfo";
 import "./App.css";
 
 const App = () => {
@@ -16,6 +17,7 @@ const App = () => {
             <Switch>
               <Route exact path='/about' component={About} />
               <Route exact path='/' component={Home} />
+              <Route exact path='/teams' component={Teaminfo} />
             </Switch>
           </div>
         </div>

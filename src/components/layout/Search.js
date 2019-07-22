@@ -28,9 +28,11 @@ const Search = () => {
     <div className='text-center shadow p-3 mb-5 rounded-circle '>
       <h1
         style={{
-          color: "red",
-          fontWeight: "bold",
-          fontFamily: "Times New Roman"
+          textShadow: " 0 0 3px #FF0000",
+          fontWeight: "bolder",
+          fontFamily: "serif",
+          fontSize: "90px",
+          textAlign: "center"
         }}
       >
         <u>SELECT THE LEAGUE</u>
@@ -38,7 +40,7 @@ const Search = () => {
       <br />
       <button
         type='button'
-        className='btn btn-primary btn-lg btn-block shadow p-3 mb-5 rounded bg-dark'
+        className='btn btn-primary btn-lg btn-block shadow p-3 mb-5 rounded bg-dark '
         type='submit'
         onClick={onClick1}
       >
