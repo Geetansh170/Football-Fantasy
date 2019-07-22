@@ -31,7 +31,7 @@ const Search = () => {
           textShadow: " 0 0 3px #FF0000",
           fontWeight: "bolder",
           fontFamily: "serif",
-          fontSize: "5vw",
+          fontSize: "4vw",
           textAlign: "center"
         }}
       >

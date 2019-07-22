@@ -19,16 +19,15 @@ const Team = () => {
           className='col-4 img-responsive'
           src={crestUrl}
           alt=''
-          style={{ height: "250px", width: "250px" }}
+          style={{ height: "280px", width: "280px" }}
         />
         <h1
           style={{
             textShadow: "4px 4px 12px black",
             color: "red",
             fontWeight: "bolder",
-            fontSize: "6vw",
-            position: "relative",
-            top: "40px"
+            fontSize: "5vw",
+            textAlign: "center"
           }}
           className='col-8'
         >
