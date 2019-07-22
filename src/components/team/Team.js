@@ -26,7 +26,7 @@ const Team = () => {
             textShadow: "4px 4px 12px black",
             color: "red",
             fontWeight: "bolder",
-            fontSize: "5vw",
+            fontSize: "6vw",
             position: "relative",
             top: "40px"
           }}
@@ -45,7 +45,7 @@ const Team = () => {
             textShadow: "0 0 3px #FF0000, 0 0 5px #0000FF",
             fontWeight: "bolder",
             fontFamily: "serif",
-            fontSize: "40px"
+            fontSize: "2vw"
           }}
         >
           Founded : {founded}
@@ -55,7 +55,7 @@ const Team = () => {
             textShadow: "0 0 3px #FF0000, 0 0 5px #0000FF",
             fontWeight: "bolder",
             fontFamily: "serif",
-            fontSize: "40px"
+            fontSize: "2vw"
           }}
         >
           Short Name : {tla}
@@ -65,7 +65,7 @@ const Team = () => {
             textShadow: "0 0 3px #FF0000, 0 0 5px #0000FF",
             fontWeight: "bolder",
             fontFamily: "serif",
-            fontSize: "40px"
+            fontSize: "2vw"
           }}
         >
           Club Colors : {clubColors}
@@ -75,7 +75,7 @@ const Team = () => {
             textShadow: "0 0 3px #FF0000, 0 0 5px #0000FF",
             fontWeight: "bolder",
             fontFamily: "serif",
-            fontSize: "40px"
+            fontSize: "2vw"
           }}
         >
           Stadium : {venue}
@@ -89,7 +89,7 @@ const Team = () => {
           textShadow: " 0 0 3px #FF0000",
           fontWeight: "bolder",
           fontFamily: "serif",
-          fontSize: "80px",
+          fontSize: "5vw",
           textAlign: "center"
         }}
       >

@@ -17,19 +17,20 @@ const Teamitem = ({ squad: { name, position, nationality } }) => {
           fontWeight: "bolder",
           textShadow: " 2px 2px 4px #000000",
           fontFamily: "serif",
-          color: "white"
+          color: "white",
+          fontSize: "1.5vw"
         }}
       >
         Name : {name}
       </h2>
-      <br />
       <br />
       <h3
         style={{
           fontWeight: "bold",
           textShadow: " 2px 2px 4px #000000",
           fontFamily: "serif",
-          color: "grey"
+          color: "grey",
+          fontSize: "1.5vw"
         }}
       >
         Position : {position}{" "}
@@ -39,7 +40,8 @@ const Teamitem = ({ squad: { name, position, nationality } }) => {
           fontWeight: "bold",
           textShadow: " 2px 2px 4px #000000",
           fontFamily: "serif",
-          color: "grey"
+          color: "grey",
+          fontSize: "1.5vw"
         }}
       >
         Nationality : {nationality}
